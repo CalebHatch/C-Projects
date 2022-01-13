@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main(){
     double celsiusTemp;
     cout << "This program converts a temperature in degrees Celsius into a temperature in degrees Fahrenheit. Enter a temperature in degrees Celsius: ";
@@ -12,5 +11,6 @@ int main(){
 
     cout << celsiusTemp << " degrees is equal to " << fahrenheitTemp << " degrees Fahrenheit. Goodbye.";
 
+    system("pause");
     return 0;
 }
